@@ -1,12 +1,28 @@
+/* Univeral Styles */
+
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #ef5260;
+}
+
 /* Header */
 
 header {
-    background-color: #f0f8ff;
+    background-color: #663399;
     width: 100%;
     position: fixed;
     display: flex;
     height: 100px;
-    /* pending */
     z-index: 1;
     top: 0;
     align-items: center;
@@ -41,12 +57,30 @@ nav {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    height: 110%;
+    font-size: 1.5em;
+    color: white;
+}
+
+.big-heading h1,
+h4 {
+    width: 100%;
+    height: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: black;
+    font-family: serif;
 }
 
 .blurb {
     display: flex;
     justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .blurb p {
@@ -55,7 +89,7 @@ nav {
 }
 
 .meet {
-    background-color: #f0f8ff;
+    background-color: #663399;
 }
 
 .meet h1 {
@@ -71,6 +105,7 @@ nav {
 
 .member img {
     width: 300px;
+    height: 400px;
 }
 
 .member {
@@ -80,8 +115,34 @@ nav {
     align-items: center;
     width: 500px;
     height: 650px;
+    padding: 20px;
 }
 
 .member p {
     max-width: 300px;
+}
+
+.member h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.blurb img {
+    width: 400px;
+}
+
+#flip {
+    transform: rotateY(180deg);
+}
+
+footer {
+    background-color: #663399;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.meet h1 {
+    font-size: 1.5em;
 }
