@@ -73,6 +73,7 @@ h4 {
     margin: 0;
     background-color: black;
     font-family: serif;
+    opacity: 0.6;
 }
 
 .blurb {
