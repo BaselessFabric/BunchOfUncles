@@ -1,0 +1,37 @@
+/* Header */
+
+header {
+    background-color: #f0f8ff;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    height: 100px;
+    /* pending */
+    z-index: 1;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid whitesmoke;
+}
+
+header img {
+    height: 95px;
+    margin-left: 20px;
+}
+
+nav a {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+nav {
+    margin-right: 40px;
+}
+
+.image-container {
+    background-image: url(/resources/images/o-MALE-FRIENDS-facebook.jpeg);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
