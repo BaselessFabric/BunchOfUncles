@@ -60,6 +60,7 @@ nav {
     height: 110%;
     font-size: 1.5em;
     color: white;
+    white-space: nowrap;
 }
 
 .big-heading h1,
@@ -188,5 +189,11 @@ footer {
 @media only screen and (max-width: 310px) {
     .big-heading {
         font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .big-heading {
+        font-size: 0.7em;
     }
 }
