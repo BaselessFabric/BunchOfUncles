@@ -184,3 +184,9 @@ footer {
         font-size: 1.3em;
     }
 }
+
+@media only screen and (max-width: 310px) {
+    .big-heading {
+        font-size: 0.9em;
+    }
+}
