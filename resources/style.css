@@ -35,3 +35,53 @@ nav {
     height: 650px;
     width: 100%;
 }
+
+.big-heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.blurb {
+    display: flex;
+    justify-content: center;
+}
+
+.blurb p {
+    max-width: 400px;
+    margin: 80px;
+}
+
+.meet {
+    background-color: #f0f8ff;
+}
+
+.meet h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member img {
+    width: 300px;
+}
+
+.member {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 650px;
+}
+
+.member p {
+    max-width: 300px;
+}
